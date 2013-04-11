@@ -4,14 +4,7 @@ import pygame.gfxdraw
 import Leap
 import time
 
-main_dir = os.path.split(os.path.abspath(__file__))[0]
 pointer_radius = 4
-
-
-def load_image(name):
-    print main_dir
-    path = os.path.join(main_dir, 'img', name)
-    return pygame.image.load(path).convert()
 
 class LeapDraw:
     """ This class handles all rendering. Positions to render should be updated here. """
