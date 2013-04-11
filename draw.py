@@ -1,4 +1,4 @@
-import os, pygame
+import pygame
 from pygame.locals import *
 import pygame.gfxdraw
 import Leap
